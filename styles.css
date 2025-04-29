@@ -10,9 +10,14 @@ img { max-width:100%; }
 /************* End CSS RESETS **************/
 
 body {
-	background:url(images/paper.png);
-	color: #424242;
-	font-family: 'Source Sans Pro', sans-serif;
+	background:url(images/background.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+ 	 background-position: center center;
+ 	 min-height: 100vh;
+	color: #000;
+	font-family: 'nunito';
+	font-weight: 400;
 	padding: 30px 0;
 }
 
@@ -54,7 +59,8 @@ footer {
 /************ typography *************/
 
 h1, h2, h3 {
-	font-family: 'Bitter', serif;
+	font-family: 'banger';
+	font-weight: 700;
 	margin-bottom:.5em;
 }
 
